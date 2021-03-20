@@ -3,12 +3,12 @@ provider "aws" {
 }
 
 variable "ami" {
-        default = "ami-0619d309766d26749"
+        default = "ami-01581ffba3821cdf3"
 }
 
 
 resource "aws_instance" "my-instance" {
-        ami = "ami-0619d309766d26749"
+        ami = "ami-01581ffba3821cdf3"
         instance_type = "t3a.micro"
         key_name = "thaidevelopers-aws"
         tags = {
