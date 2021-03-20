@@ -1,5 +1,5 @@
 provider "aws" {
-        region = "ap-southeast-1"
+        region = "ap-southeast-1a"
 }
 
 variable "ami" {
@@ -12,7 +12,7 @@ resource "aws_instance" "my-instance" {
         instance_type = "t3a.micro"
         key_name = "thaidevelopers-aws"
         tags = {
-                Name = "TEST-Terraform"
+                Name = "66666666-Test"
         }
 }
 
